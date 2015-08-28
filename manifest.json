@@ -1,0 +1,32 @@
+{
+  "name": "Firemonkeys CS Tool",
+  "author": {
+    "name": "Firemonkeys",
+    "email": "jfenech@ea.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["ticket_sidebar", "new_ticket_sidebar"],
+  "version": "1.0.1",
+  "frameworkVersion": "1.0",
+  "parameters": [
+    {
+      "name"            : "required_fields",
+      "type"            : "text",
+      "required"        : true,
+      "default"         : "custom_field_22626184"
+    },
+    {
+      "name"            : "hidden_fields",
+      "type"            : "text",
+      "required"        : true,
+      "default"         : "custom_field_25134908,custom_field_25137258,custom_field_21043339"
+    },
+    {
+      "name"            : "disabled_fields",
+      "type"            : "text",
+      "required"        : true,
+      "default"         : "custom_field_24649458,type,priority"
+    }
+  ]
+}

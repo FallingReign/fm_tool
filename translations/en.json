@@ -1,0 +1,45 @@
+{
+  "app": {
+    "package": "modal_sample_app",
+    "description":  {
+      "value": "FM Tool App",
+      "title": "app description"
+    },
+
+    "name": {
+      "value": "FM Tool",
+      "title": "app name"
+    }
+  },
+
+  "description": {
+    "value": "Modal test for FM tool ",
+    "title": "in app instruction"
+  },
+
+  "modal_button": {
+    "value": "Show",
+    "title": "show modal button"
+  },
+
+  "save_button": {
+    "value": "Save",
+    "title": "save button"
+  },
+
+  "close_button": {
+    "value": "Close",
+    "title": "hide modal button"
+  },
+
+  "modal_header": {
+   "value": "FM Tool Modal",
+   "title": "modal header"
+  },
+
+  "modal_body": {
+    "value": "Contents of Modal App",
+    "title": "modal body"
+  }
+
+}

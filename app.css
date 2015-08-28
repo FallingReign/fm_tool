@@ -1,0 +1,25 @@
+ .modal {
+	width: 1200px;
+	position: fixed;
+	margin: -350px auto;
+	left: 0px;
+	right: 0px;
+}
+.modal-body {
+  overflow-y: auto;
+  max-height: 100%;
+}
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+  margin-top: 5px;
+}
