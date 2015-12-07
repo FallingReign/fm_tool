@@ -83,7 +83,7 @@
                 </select>
               </div>
               <div class="span2">
-                <input type="text" class="span22" placeholder="Amount">
+                <input type="text" class="span12" placeholder="Amount">
               </div>
               <div class="span2">
                 <button class="btn span12 btn-inverse">Blueprint</button>
@@ -106,7 +106,7 @@
                 </select>
               </div>
               <div class="span2">
-                <input type="text" class="span22" placeholder="Amount">
+                <input type="text" class="span12" placeholder="Amount">
               </div>
               <div class="span2">
                 <button class="btn span12 btn-inverse">Part</button>
@@ -119,7 +119,7 @@
                 </select>
               </div>
               <div class="span2">
-                <input type="text" class="span22" placeholder="Amount">
+                <input type="text" class="span12" placeholder="Amount">
               </div>
               <div class="span2">
                 <button class="btn span12 btn-inverse">Material</button>
