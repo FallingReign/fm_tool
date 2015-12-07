@@ -3,7 +3,11 @@
   // complete app API reference can be found at
   // http://developer.zendesk.com/documentation/rest_api/apps.html
 
+  var database = require('load.js');
+
   return {
+
+
 
     requests: {
       'fetchUser': function(id) {
@@ -30,6 +34,11 @@
     init: function() {
       this.switchTo('modal_sfp');
       this.ajax('fetchUser', this.currentUser().id()); // Nick is 465739980
+
+      //show output for the external data for example
+      console.log(database);
+
+
     },
 
     onFetchUserDone: function(data) {
