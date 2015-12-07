@@ -28,7 +28,7 @@
     },
 
     init: function() {
-      this.switchTo('modal');
+      this.switchTo('modal_sfp');
       this.ajax('fetchUser', this.currentUser().id()); // Nick is 465739980
     },
 
