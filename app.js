@@ -32,7 +32,7 @@
     },
 
     init: function() {
-      this.switchTo('modal_sfp');
+      this.switchTo('modal_sfp', database);
       this.ajax('fetchUser', this.currentUser().id()); // Nick is 465739980
 
       //show output for the external data for example
