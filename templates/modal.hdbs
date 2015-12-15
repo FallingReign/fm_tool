@@ -5,11 +5,7 @@
     <h3 class="my_modal_label">{{t "modal_header"}}</h3>
   </div>
   <div class="modal-body">
-
-
-
-
-  <div class="container">
+    <div class="container">
       <h4>Gift Calculator</h4>
       <div class="alert alert-success">
         <b>Warning!</b> You best check yourself, you're not looking so good.
@@ -157,10 +153,6 @@
         </div>
       </div>
     </div>
-
-
-
-
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">{{t "close_button"}}</button>
